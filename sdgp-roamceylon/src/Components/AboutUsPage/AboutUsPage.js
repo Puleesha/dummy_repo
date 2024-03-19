@@ -8,7 +8,6 @@ import whatsapp_img from "./whatsapp_5968841.png"
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { authorizationActions } from "../../store";
-import GalleImage from '../LocationDescriptionPages/Images/newgalleimge1.jpg';
 import axios from "axios";
 import thinalimage from "./Thinal.JPG";
 import puleeshaimage from "./Puleesha.jpg";

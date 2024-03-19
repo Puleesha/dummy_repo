@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import Navbar from '../AboutUsPage/Navbar';
-import KandyImage1 from '../LocationDescriptionPages/Images/botanicalGarden.jpg';
+import KandyImage1 from '../../Images/botanicalGarden.jpg';
 //import KandyImage2 from '../LocationDescriptionPages/Images/Kandy/templeOfTheTooth.jpg';
-import KandyImage3 from '../LocationDescriptionPages/Images/Kandy/kandyjungle.jpg';
-import KandyImageMain from '../LocationDescriptionPages/Images/kandyImg.jpg';
-import KandyHotel1 from '../LocationDescriptionPages/Images/KHotel1.jpg';
-import KandyHotel2 from '../LocationDescriptionPages/Images/KHotel2.jpg';
-import KandyHotel3 from '../LocationDescriptionPages/Images/KHotel3.jpg';
+import KandyImage3 from '../../Images/kandyjungle.jpg';
+import KandyImageMain from '../../Images/kandyImg.jpg';
+import KandyHotel1 from '../../Images/KHotel1.jpg';
+import KandyHotel2 from '../../Images/KHotel2.jpg';
+import KandyHotel3 from '../../Images/KHotel3.jpg';
 import LocationData from './locations.json'
 import './Galle.css';
 import Review from '../ReviewSection/Review';

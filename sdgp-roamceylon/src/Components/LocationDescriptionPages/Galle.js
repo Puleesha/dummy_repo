@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import Navbar from '../AboutUsPage/Navbar';
-import GalleImage from '../LocationDescriptionPages/Images/newgalleimge1.jpg';
-import galleimage1 from '../LocationDescriptionPages/Images/Galle-Dutch-Fort.jpg';
-import galleimage2 from '../LocationDescriptionPages/Images/turtle-hatchery-hikkaduwa.jpg';
-import galleimage3 from '../LocationDescriptionPages/Images/Galle_Maritime_Museum.jpg';
-import LeGrand from '../LocationDescriptionPages/Images/leGrand.jpg';
-import raddisson from '../LocationDescriptionPages/Images/raddisson.jpg';
-import lighthouse from '../LocationDescriptionPages/Images/lighthouse.jpg';
+import GalleImage from '../../Images/newgalleimge1.jpg';
+import galleimage1 from '../../Images/Galle-Dutch-Fort.jpg';
+import galleimage2 from '../../Images/turtle-hatchery-hikkaduwa.jpg';
+import galleimage3 from '../../Images/Galle_Maritime_Museum.jpg';
+import LeGrand from '../../Images/leGrand.jpg';
+import raddisson from '../../Images/raddisson.jpg';
+import lighthouse from '../../Images/lighthouse.jpg';
 import LocationData from './locations.json'
 import './Galle.css';
 import Review from '../ReviewSection/Review';
