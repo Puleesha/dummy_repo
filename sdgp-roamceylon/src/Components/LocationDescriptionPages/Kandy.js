@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Navbar from '../AboutUsPage/Navbar';
 import KandyImage1 from '../LocationDescriptionPages/Images/botanicalGarden.jpg';
-import KandyImage2 from '../LocationDescriptionPages/Images/Kandy/templeOfTheTooth.jpg';
+//import KandyImage2 from '../LocationDescriptionPages/Images/Kandy/templeOfTheTooth.jpg';
 import KandyImage3 from '../LocationDescriptionPages/Images/Kandy/kandyjungle.jpg';
 import KandyImageMain from '../LocationDescriptionPages/Images/kandyImg.jpg';
 import KandyHotel1 from '../LocationDescriptionPages/Images/KHotel1.jpg';
@@ -106,7 +106,7 @@ export default function Galle(location){
                     <p className='text_dest'>Botanical Garden(4.7 <span class="fa fa-star checked"></span>)</p>
                 </div>
                 <div className='popular_destination'>
-                    <img src={KandyImage2} className='destination_image'/>
+                    {/* <img src={KandyImage2} className='destination_image'/> */}
                     <p className='text_dest'>Temple of the tooth(4.4 <span class="fa fa-star checked"></span>)</p>
                 </div>
                 <div className='popular_destination'>
