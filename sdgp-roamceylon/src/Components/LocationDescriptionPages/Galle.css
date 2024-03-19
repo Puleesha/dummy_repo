@@ -1,0 +1,178 @@
+.location_image{
+    height: 450px;
+    width: 99.3%;
+    margin-left: 0px;
+    position: absolute; 
+    overflow: hidden;
+    transform: scale(1.0145);
+    filter: brightness(.7);
+}
+
+.location_detail{
+    margin-top: 100px;
+    z-index: 1;
+    font-size: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.208);
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.location_detail h3{
+    color: white;
+    margin-top: 20px;
+}
+
+.description{
+    font-size: 20px;
+}
+
+.location_information{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.location_Des{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 90px;
+}
+
+.location_Des h3{
+    color: white;
+}
+
+.location_destinations{
+    display:inline-flex;
+    background-color:rgba(207, 232, 242, 0.85);
+    width:100%;
+    height: 400px;
+}
+
+.popular_destination{
+    justify-content: space-between;
+    background-color: white;
+    width: 350px;
+    margin: 80px;
+    height: 280px;
+    display: inline;
+    padding: 10px;
+    margin-right: 40px;
+    display: flex;
+    margin-left: 100px;
+    box-shadow: 0 5px 10px 2px rgb(0,0,0);
+    transition: 0.25s ease-in-out;
+    border-radius: 10px;
+}
+
+.locationContainer{
+    justify-content: space-between;
+    background-color: white;
+    width: 400px;
+    margin: 80px;
+    height: 300px;
+    display: inline;
+    padding: 30px;
+    margin-right: 20px;
+    display: flex;
+    margin-left: 40px;
+    transition: 0.25s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0);
+}
+
+.locationContainer p{
+    font-weight: 300;
+}
+
+
+.destination_image{
+    height: 200px;
+    width: 300px;
+    z-index: 1;
+    position: absolute; 
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.popular_destination:hover, .locationContainer:hover{
+    transform:scale(1.1)
+}
+
+.text_dest{
+    z-index: 1;
+    font-size: 18px;
+    margin-left: 15px;
+    color: black;
+    margin-top:215px;
+}
+
+.indicators{
+    background-color: rgb(241, 246, 254);
+    border-radius: 20px;
+}
+
+.galle-hotels{
+    background-color: rgb(241, 246, 254);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    display: inline-flex;
+}
+
+.indicators h1{
+    color: black;
+}
+
+.indicator-container{
+    display:inline-flex;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    min-height: 150px;
+    min-width: 250px;
+    border-radius: 15px;
+    background-color: rgb(187, 211, 251, 0.85);
+}
+
+.indicator-container p span{
+    position: relative;
+}
+
+
+.indicator-scale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+
+.destination-heading{
+    margin-top:80px;
+    font-size:35px; 
+    font-weight: 400;
+}
+.checked{
+    color:orange;
+}
+
+.weatherdata{
+    margin-top: 5px;
+    font-size: 25px;
+    color: rgb(30, 158, 221);
+}

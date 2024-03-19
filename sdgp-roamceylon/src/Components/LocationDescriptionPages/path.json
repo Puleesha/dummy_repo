@@ -1,0 +1,99 @@
+[
+  {
+    "id":1,
+    "location": "Galle",
+    "name": "Galle",
+    "description": "Description for Galle",
+    "indicators": [
+      {
+        "title": "Weather",
+        "value": "Tropical / Hot and Humid"
+      },
+      {
+        "title": "Wi-Fi",
+        "value": "Fast"
+      },
+      {
+        "title": "COST OF LIVING",
+        "value": "High"
+      },
+      {
+        "title": "URBAN/RURAL",
+        "value": "Urban"
+      }
+    ],
+    "destinations": [
+      {
+        "name": "cover page",
+        "image": "../LocationDescriptionPages/Images/newgalleimge1.jpg"
+      },
+      {
+        "name": "Sea Turtle Hatchery Centre",
+        "image": "../LocationDescriptionPages/Images/Galle-Dutch-Fort.jpg"
+      },
+      {
+        "name": "Maritime Museum",
+        "image": "./LocationDescriptionPages/Images/turtle-hatchery-hikkaduwa.jpg"
+      },
+
+      {
+        "name": "Galle Dutch Fort",
+        "image": "../LocationDescriptionPages/Images/Galle_Maritime_Museum.jpg'"
+      },
+      {
+        "name": "Sea Turtle Hatchery Centre",
+        "image": "../LocationDescriptionPages/Images/leGrand.jpg"
+      },
+      {
+        "name": "Maritime Museum",
+        "image": "../LocationDescriptionPages/Images/raddisson.jpg"
+      },
+      {
+        "name": "Galle Dutch Fort",
+        "image": "../LocationDescriptionPages/Images/lighthouse.jpg"
+      }
+    ],
+    "link": "http://localhost:8000/common"
+  },
+  {
+    "id":2,
+    "location": "Kandy",
+    "name": "Galle",
+    "description": "Description for Kandy",
+    "indicators": [
+      {
+        "title": "Weather",
+        "value": "Tropical / Hot and Humid"
+      },
+      {
+        "title": "Wi-Fi",
+        "value": "Fast"
+      },
+      {
+        "title": "COST OF LIVING",
+        "value": "High"
+      },
+      {
+        "title": "URBAN/RURAL",
+        "value": "Urban"
+      }
+    ],
+    "destinations": [
+      {
+        "name": "Galle Dutch Fort",
+        "image": "Galle-Dutch-Fort.jpg"
+      },
+      {
+        "name": "Sea Turtle Hatchery Centre",
+        "image": "turtle-hatchery-hikkaduwa.jpg"
+      },
+      {
+        "name": "Maritime Museum",
+        "image": "Galle_Maritime_Museum.jpg"
+      }
+    ],
+    "link": "http://localhost:8000/common"
+  }
+]
+
+
