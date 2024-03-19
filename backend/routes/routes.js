@@ -1,16 +1,16 @@
 const express = require('express');
 const router =express.Router();
 const axios = require('axios');
-const verifyUser = require('../middleware/verifyJWT');
+const verifyUser = require('../middleware/verifyJWT.js');
 
-const {registerUser, loginUser} = require('../controllers/registerController');
-const {addReview,sendReview}= require('../controllers/reviewController');
-const refresh= require('../controllers/refresnController');
+const {registerUser, loginUser} = require('../controllers/registerController.js');
+const {addReview,sendReview}= require('../controllers/reviewController.js');
+const refresh= require('../controllers/refresnController.js');
  
 
 
-const saveUser=require('../controllers/saveController');
-const {sendUser}=require('../controllers/usersController');
+const saveUser=require('../controllers/saveController.js');
+const {sendUser}=require('../controllers/usersController.js');
 const cors = require('cors');
 
 

@@ -1,14 +1,14 @@
 const express = require('express');
 const app = express();
-const connectDB = require('./database/database');
+const connectDB = require('./database/database.js');
 
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const path = require('path')
-const credentials = require('./configuration/credentials');
-const whiteList = require('./configuration/whiteList');
+const credentials = require('./configuration/credentials.js');
+const whiteList = require('./configuration/whiteList.js');
 
-app.use(express.static(path.join(__dirname, '../sdgp-roamceylon/build')));
+// app.use(express.static(path.join(__dirname, '../sdgp-roamceylon/build')));
 
 
 
@@ -29,7 +29,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-app.use('/',require('./routes/routes'));
+app.use('/',require('./routes/routes.js'));
 
 
 app.listen(PORT,()=>{
