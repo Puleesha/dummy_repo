@@ -12,7 +12,7 @@ import Common2 from './Components/LocationDescriptionPages/common2.js';
 import Galle from './Components/LocationDescriptionPages/Galle.js';
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 import { useSelector } from "react-redux";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 
